@@ -1,0 +1,5 @@
+1) Analizar y describir la librería "arm_book_lib.h"
+2) Analizar y describir la libreria "mbed.h"
+3) Investigar, comprender los recursos de SW de las herramientas utilizadas
+4) ¿Qué es OpenSTM32?
+5) ¿Qué es mbed-OS? 
