@@ -1,5 +1,16 @@
 1) Analizar y describir la librería "arm_book_lib.h"
+La librería "arm_book_lib.h" contiene macros definiendo estados lógicos y eléctricos. También
+define un alias para la función thread_sleep_for().  
 2) Analizar y describir la libreria "mbed.h"
+La librería "mbed.h" importa todos los archivos necesarios para utilizar la placa (drivers,
+ interrupciones, operaciones atómicas, entre otras cosas). Además, define dos namespace para 
+ no utilizar la sintáxis con doble punto (mbed::, std::). 
 3) Investigar, comprender los recursos de SW de las herramientas utilizadas
 4) ¿Qué es OpenSTM32?
+OpenSTM32 es un foro de desarrolladores de sistemas embebidos que utilizan los microcontroladores
+de la familia STM32. 
 5) ¿Qué es mbed-OS? 
+Mbed-OS es un sistema operativo de código abierto orientado a IoT para las placas Cortex-M. Mbed-OS
+tiene como objetivo proveer una capa de abstracción sobre los microcontroladores en los que corre. 
+De esta manera, mbed-OS se convierte en una plataforma sobre la cual construir aplicaciones de mayor
+complejidad y compatibilidad entre dispositivos compatibles con mbed-OS. 
