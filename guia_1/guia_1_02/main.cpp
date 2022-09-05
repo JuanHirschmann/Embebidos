@@ -3,9 +3,13 @@
 #include "hal/gpio_api.h"
 #include "platform/mbed_toolchain.h"
 #include "gpio_object.h"
-/*Los comentarios en el código corresponden a la versión escrita en C++, 
-el código actual fue modificado para responder las consignas 3) y 4)*/
+
 int main()
+/**
+ * @brief Configura el Pin D1 como entrada digital para conectar un detector de gas.
+    Los comentarios en el código corresponden a la versión escrita en C++, 
+    el código actual fue modificado para responder las consignas 3) y 4)
+ */
 {
     gpio_t gasDetector;
     gpio_init_in_ex(&gasDetector, D1,PullDown);

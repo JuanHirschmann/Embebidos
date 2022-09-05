@@ -2,23 +2,11 @@
 #include "arm_book_lib.h"
 
 int main()
+/**
+ * @brief Imprime continuamente "Hola" en el puerto serie.
+ */
 {
-    DigitalIn gasDetector(D2);
-
-    DigitalOut alarmLed(LED1);
-
-    gasDetector.mode(PullDown);
-
-    alarmLed = OFF;
-
     while (true) {
-        if ( gasDetector == ON ) {
-            alarmLed = ON;
-        }
-        
-        if ( gasDetector == OFF ) {
-            alarmLed = OFF;
-        }
         printf("Hola");
     }
 }
